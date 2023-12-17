@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title> Age calculator app</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+  <div class="layout" >
+   <div class="container">
+    <div class="input-box">
+        <label class="tt"for="input1">DAY</label>
+        <input class="time"type="number" id="day" name="input1" placeholder="DD">
+        <span class="hidden" id="day-invalid">Must be a valid date</span>
+    </div>
+
+    <div class="input-box">
+        <label class="tt"for="input2">MONTH</label>
+        <input class="time"type="number" id="month" name="input2" placeholder="MM">
+        <span class="hidden" id="month-invalid">Must be a valid month</span>
+    </div>
+    <div class="input-box ">
+      <label class="tt"for="input3">YEAR</label>
+      <input class="time"type="number" id="year" name="input3" placeholder="YYYY">
+      <span class="hidden" id="year-invalid">Must be a valid year</span>
+   </div>
+  
+  </div>
+  <div class="divider">
+    <hr>
+    <div class="circle" id="submit-btn">
+      <img src="./assets/images/icon-arrow.svg" alt="" />
+    </div> 
+  </div>
+
+  <div class="main">
+     <p id ="tan"><span class="dash" > -  -</span> years</p>
+     <p id ="tan"><span class="dash" >- -</span> months</p>
+     <p id ="tan"><span class="dash" >- -</span>days</p>
+  </div>
+</div>
+<script src="index.js"></script> 
+</body>
+</html>
