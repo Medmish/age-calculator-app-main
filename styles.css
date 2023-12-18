@@ -1,17 +1,15 @@
+
 body{
-    margin:3rem;
+    margin:2rem;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color:rgb(238, 238, 235);
     font-family: 'Poppins', sans-serif;
+  
 }
 
 .layout {
-    /* align-items: left; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items:flex-start; */
     padding-top:3rem;
     width: 700px;
     height: 500px;
@@ -25,7 +23,8 @@ body{
     display: inline-flex;
     text-align: left;
     margin-left: 50px;
-    
+    /* margin-top: 25px;
+     */
 }
 .input-box {
 
@@ -97,5 +96,12 @@ img{
 }
 .hidden {
     visibility: hidden;
-    color:red;
+    
+}
+.input-box span{
+    font-size: 10px;
+    color: hsl(0, 100%, 67%);
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    padding-top: 2px;
 }
